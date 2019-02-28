@@ -20,6 +20,7 @@ tdturl = [
         'http://t7.tianditu.com/DataServer?',
     ]
 
+
 def create_image_path(rootpath, level, x):
     path = './%s/%d/%d'%(rootpath, level, x)
     if not os.path.exists(path):
